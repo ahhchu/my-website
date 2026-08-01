@@ -32,7 +32,7 @@ export default function Hero() {
           {/* Top Left: About */}
           <a
             href="#about"
-            className="absolute -top-4 -left-12 sm:-top-6 sm:-left-20 flex flex-col items-center gap-1 group"
+            className="font-zodiak absolute -top-4 -left-12 sm:-top-6 sm:-left-20 flex flex-col items-center gap-1 group"
           >
             <div className={`shadow-md transition-all duration-700 group-hover:-translate-y-1 group-hover:shadow-lg ${navItems[0].color}`}>
               <img src={navItems[0].icon} alt="" className="h-9 w-9 sm:h-10 sm:w-10 object-contain" />
@@ -43,7 +43,7 @@ export default function Hero() {
           {/* Top Right: Work */}
           <a
             href="#experience"
-            className="absolute -top-4 -right-12 sm:-top-6 sm:-right-20 flex flex-col items-center gap-1 group"
+            className="font-zodiak absolute -top-4 -right-12 sm:-top-6 sm:-right-20 flex flex-col items-center gap-1 group"
           >
             <div className={`shadow-md transition-all duration-700 group-hover:-translate-y-1 group-hover:shadow-lg ${navItems[1].color}`}>
               <img src={navItems[1].icon} alt="" className="h-9 w-9 sm:h-10 sm:w-10 object-contain" />
@@ -54,7 +54,7 @@ export default function Hero() {
           {/* Bottom Left: Projects */}
           <a
             href="#projects"
-            className="absolute -bottom-4 -left-12 sm:-bottom-6 sm:-left-20 flex flex-col items-center gap-1 group"
+            className="font-zodiak absolute -bottom-4 -left-12 sm:-bottom-6 sm:-left-20 flex flex-col items-center gap-1 group"
           >
             <div className={`shadow-md transition-all duration-700 group-hover:-translate-y-1 group-hover:shadow-lg ${navItems[2].color}`}>
               <img src={navItems[2].icon} alt="" className="h-9 w-9 sm:h-10 sm:w-10 object-contain" />
@@ -65,7 +65,7 @@ export default function Hero() {
           {/* Bottom Right: Contact */}
           <a
             href="#contact"
-            className="absolute -bottom-4 -right-12 sm:-bottom-6 sm:-right-20 flex flex-col items-center gap-1 group"
+            className="font-zodiak absolute -bottom-4 -right-12 sm:-bottom-6 sm:-right-20 flex flex-col items-center gap-1 group"
           >
             <div className={`shadow-md transition-all duration-700 group-hover:-translate-y-1 group-hover:shadow-lg ${navItems[3].color}`}>
               <img src={navItems[3].icon} alt="" className="h-9 w-9 sm:h-10 sm:w-10 object-contain" />
@@ -76,10 +76,10 @@ export default function Hero() {
 
         {/* Hero Title / Intro */}
         <div className="mt-6 text-center">
-          <h1 className="text-3xl font-bold tracking-tight text-neutral-900 sm:text-4xl">
+          <h1 className="font-comico text-3xl tracking-tight text-neutral-900 sm:text-4xl">
             Catherine Chu
-          </h1>
-          <p className="mt-2 text-base text-neutral-600"> 
+        </h1>
+          <p className="font-zodiak font-bold mt-2 text-base text-neutral-600"> 
             Software Engineer
           </p>
         </div>

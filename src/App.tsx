@@ -13,16 +13,16 @@ function App() {
       <Nav />
       <main>
             <Hero />
-            <Folder id="about" label="About" tabOffset={80}>
+            <Folder id="about" label="ABOUT" tabOffset={80}>
                 <About />
             </Folder>
-            <Folder id="experience" label="Experience" tabOffset={240}>
+            <Folder id="experience" label="WORK" tabOffset={240}>
                 <Experience />
             </Folder>
-            <Folder id="projects" label="Projects" tabOffset={490}>
+            <Folder id="projects" label="PROJECTS" tabOffset={490}>
                 <Projects />
             </Folder>
-            <Folder id="contact" label="Contact" tabOffset={650}>
+            <Folder id="contact" label="CONTACT" tabOffset={650}>
                 <Contact />
             </Folder>
       </main>

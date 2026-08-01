@@ -16,16 +16,16 @@ function Experience() {
                 {entry.startDate}&ndash;{entry.endDate}
               </p>
 
-              <p className="mt-1 text-lg font-semibold text-neutral-900">
+              <p className="font-zodiak mt-1 text-lg font-semibold text-neutral-900">
                 {entry.role}
               </p>
-              <p className="text-sm font-medium text-neutral-600">{entry.company}</p>
+              <p className="font-zodiak text-sm font-medium text-neutral-600">{entry.company}</p>
 
               {entry.highlights ? (
                 <ul className="mt-3 max-w-2xl space-y-2">
                   {entry.highlights.map((h) => (
-                    <li key={h.keyword} className="text-sm leading-relaxed text-neutral-700">
-                      <span className="font-semibold text-neutral-900">{h.keyword}:</span>{' '}
+                    <li key={h.keyword} className="font-zodiak text-sm leading-relaxed text-neutral-700">
+                      <span className="font-zodiak-bold text-neutral-900">{h.keyword}:</span>{' '}
                       {h.text}
                     </li>
                   ))}

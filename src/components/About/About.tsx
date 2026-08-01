@@ -43,8 +43,8 @@ function About() {
                     className="w-56 h-auto border border-neutral-200"
                 />
                 <div>
-                    <h2 className="mb-3 text-xl font-semibold text-neutral-900">
-                         Hi! 안녕!
+                    <h2 className="font-comico mb-3 text-xl font-semibold text-neutral-900">
+                         Hi! 안녕
                     </h2>
                     <p className="max-w-2xl text-base leading-relaxed text-neutral-700">
                       I build software because I love taking cool ideas and turning them into things people actually use.
@@ -53,29 +53,29 @@ function About() {
                     </p>
                    <br />
                     <br />
-                    <p className="mt-3 max-w-2xl text-base leading-relaxed text-neutral-700">
-                        <span className="font-semibold text-neutral-900">BS in CS</span> — UGA ('25)
+                    <p className="font-zodiak mt-3 max-w-2xl text-base leading-relaxed text-neutral-700">
+                        <span className="font-zodiak-bold  font-semibold text-neutral-900">BS in CS</span> — UGA ('25)
                         <br />
-                        <span className="font-semibold text-neutral-900">MS in CS (AI)</span> — Georgia Tech(Ongoing)
+                        <span className="font-zodiak-bold font-semibold text-neutral-900">MS in CS (AI)</span> — Georgia Tech(Ongoing)
                     </p>
                 </div>
             </div>
 
             {/* What I Bring to the Table — card grid */}
             <div className="mt-16">
-                <h3 className="mb-6 text-lg font-semibold text-neutral-900">
+                <h3 className="font-comico mb-6 text-lg font-semibold text-neutral-900">
                     What I Bring to the Table
                 </h3>
-                <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
+                <div className="font-zodiak grid grid grid-cols-1 gap-4 sm:grid-cols-2">
                     {skills.map((skill) => (
                         <div
                             key={skill.title}
                             className="rounded-lg border border-neutral-200 p-5 transition-colors hover:border-neutral-400"
                         >
-                            <p className="mb-2 font-semibold text-neutral-900">
+                            <p className="font-zodiak-bold mb-2 font-semibold text-neutral-900">
                                 {skill.title}
                             </p>
-                            <p className="text-sm leading-relaxed text-neutral-700">
+                            <p className="font-zodiak text-sm leading-relaxed text-neutral-700">
                                 {skill.body}
                             </p>
                         </div>
@@ -85,7 +85,7 @@ function About() {
 
             {/* When I'm Offline — card grid */}
             <div className="mt-16">
-                <h3 className="mb-6 text-lg font-semibold text-neutral-900">
+                <h3 className="font-comico mb-6 text-lg font-semibold text-neutral-900">
                     When I'm Offline
                 </h3>
                 <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
@@ -94,10 +94,10 @@ function About() {
                             key={item.title}
                             className="rounded-lg border border-neutral-200 p-5 transition-colors hover:border-neutral-400"
                         >
-                            <p className="mb-2 font-semibold text-neutral-900">
+                            <p className="font-zodiak-bold mb-2 font-semibold text-neutral-900">
                                 {item.title}
                             </p>
-                            <p className="text-sm leading-relaxed text-neutral-700">
+                            <p className="font-zodiak text-sm leading-relaxed text-neutral-700">
                                 {item.body}
                             </p>
                         </div>
