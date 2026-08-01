@@ -2,13 +2,6 @@
 import { headShot, blue, brown, green, pink } from "../../assets";
 
 export default function Hero() {
-  const navItems = [
-    { label: 'About', href: '#about', icon: blue },
-    { label: 'Work', href: '#work', icon: brown },
-    { label: 'Projects', href: '#projects', icon: green },
-    { label: 'Contact', href: '#contact', icon: pink },
-  ];
-
   return (
     <section className="relative flex min-h-[85vh] flex-col items-center justify-center overflow-hidden py-12 px-4">
       <div className="relative z-10 flex flex-col items-center gap-8">
