@@ -32,7 +32,7 @@ function Projects() {
             <p className="text-base text-neutral-900">{project.title}</p>
             <p className="mt-1 text-sm text-neutral-600">{project.description}</p>
 
-            <div className="mt-5 flex flex-wrap gap-2">
+            <div className="font-zodiak mt-5 flex flex-wrap gap-2">
               {project.tags.map((tag) => (
                 <span
                   key={tag}
@@ -43,7 +43,7 @@ function Projects() {
               ))}
             </div>
 
-           <div className="mt-auto flex flex-col gap-2 border-t border-neutral-100 pt-4">
+           <div className="font-zodiak mt-auto flex flex-col gap-2 border-t border-neutral-100 pt-4">
               {isUrl(project.link) ? (
                 <a
                   href={project.link}

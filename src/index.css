@@ -1,4 +1,19 @@
 @import "tailwindcss";
+@import './fonts/comico.css';
+@import './fonts/zodiak.css';
+
+
+.font-comico {
+  font-family: 'Comico-Regular', system-ui, sans-serif;
+}
+
+.font-zodiak {
+  font-family: 'Zodiak-Regular', system-ui, sans-serif;
+}
+
+.font-zodiak-bold {
+  font-family: 'Zodiak-Bold', system-ui, sans-serif;
+}
 
 :root {
   --text: #3f3f46;
@@ -33,7 +48,7 @@
 }
 
 #root {
-  width: 1126px;
+  width: 100%;
   max-width: 100%;
   margin: 0 auto;
   text-align: center;
@@ -75,6 +90,7 @@ h2 {
   }
 }
 p {
+  font-family: font-zodiak;
   margin: 0;
 }
 
