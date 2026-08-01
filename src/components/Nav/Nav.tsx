@@ -9,7 +9,7 @@ function Nav() {
     return (
         <header className="sticky top-0 z-50 w-full border-b border-neutral-800">
             <nav className="mx-auto flex max-w-5xl items-center justify-between px-6 py-4">
-                <a href="#top" className="font-comico text-sm font-medium">
+                <a href="#top" className="font-comico text-2xl font-medium">
                     Catherine Chu
                 </a>
                 <ul className="flex items-center gap-6">
