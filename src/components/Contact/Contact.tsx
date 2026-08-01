@@ -10,7 +10,7 @@ function Contact() {
     return (
         <section
             id="contact"
-            className="mx-auto max-w-5xl border-t border-neutral-800 px-6 py-16 text-center"
+            className="mx-auto max-w-5xl px-6 py-16 text-center"
         >
             <p className="text-base text-neutral-300">Open to new opportunities.</p>
             <div className="mt-4 flex justify-center gap-6">

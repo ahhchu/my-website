@@ -33,7 +33,7 @@ const offline = [
 
 function About() {
     return (
-        <section id="about" className="mx-auto max-w-5xl border-t border-neutral-200 px-6 py-16 text-left">
+        <section id="about" className="mx-auto max-w-5xl px-6 py-16 text-left">
 
             {/* Intro, with photo */}
             <div className="grid grid-cols-1 gap-8 sm:grid-cols-[220px_minmax(0,1fr)]">
