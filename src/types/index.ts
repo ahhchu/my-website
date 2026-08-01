@@ -7,6 +7,7 @@ export interface TypeProject {
     tags: string[]
     link?: string;
     repo?: string;
+    image?: any;
 }
 // experience 
 export interface TypeExperience {
