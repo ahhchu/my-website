@@ -31,7 +31,7 @@ export default function Hero() {
 
           {/* Top Right: Work */}
           <a
-            href="#work"
+            href="#experience"
             className="font-zodiak absolute -top-16 -right-40 sm:-top-24 sm:-right-56 flex flex-col items-center gap-1 group"
           >
             <img
