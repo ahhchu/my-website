@@ -3,6 +3,9 @@ import type { TypeContact } from '../../types';
 const links: TypeContact[] = [
     { label: 'Email', href: 'mailto:catherinechu.cc@gmail.com' },
     { label: 'LinkedIn', href: 'https://www.linkedin.com/in/catherinechucc/' },
+    { label: 'Github', href: 'https://github.com/ahhchu' },
+    { label: 'Medium', href: 'https://medium.com/@catchuuu2103'},
+
 ];
 
 function Contact() {
