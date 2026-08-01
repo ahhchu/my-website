@@ -16,6 +16,8 @@ export interface TypeExperience {
     startDate: string;
     endDate: string;
     summary: string;
+    skills: string[];
+    highlights?: {keyword: string, text: string}[]
 }
 
 // skills

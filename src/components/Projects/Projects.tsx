@@ -3,7 +3,7 @@ import SkillsSidebar from '../Skills/skills';
 
 function Projects() {
   return (
-    <section id="projects" className="mx-auto max-w-5xl border-t border-neutral-800 px-6 py-16">
+    <section id="projects" className="mx-auto max-w-5xl px-6 py-16">
       <p className="mb-8 text-sm text-neutral-500">Projects</p>
       <div className="flex flex-col gap-10 sm:flex-row">
         <div className="grid flex-1 grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
