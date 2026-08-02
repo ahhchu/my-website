@@ -3,7 +3,7 @@ import { headShot, blue, brown, green, pink } from "../../assets";
 
 export default function Hero() {
   return (
-    <section className="relative flex min-h-[85vh] flex-col items-center justify-center overflow-hidden py-12 px-4">
+    <section className="relative flex min-h-[85vh] flex-col items-center justify-center overflow-visible px-4 pt-28 pb-12 sm:pt-36">
       <div className="relative z-10 flex flex-col items-center gap-8">
         <div className="relative flex items-center justify-center">
 
