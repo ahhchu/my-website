@@ -1,5 +1,5 @@
 import type { TypeProject } from '../types';
-import {gknow} from '../assets';
+import {gknow, claude} from '../assets';
 
 export const projects: TypeProject[] = [
     {
@@ -24,5 +24,13 @@ export const projects: TypeProject[] = [
         description: 'A mobile app that helps users discover and purchase sustainable fashion options.',
         tags: ['Python', 'GCP', 'Mage'],
         repo: 'coming soon...',
+    },
+    {
+        id: 'proj-4',
+        title: 'Claude Skill - Prompt Efficiency Coach',
+        description: 'A Claude skill designed to help users improve their prompt engineering skills and efficiency.',
+        tags: ['Claude', 'Prompt Engineering'],
+        image: [claude],
+        repo: 'https://github.com/ahhchu/prompt-efficiency-coach',
     },
 ];

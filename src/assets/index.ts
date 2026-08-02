@@ -4,3 +4,4 @@ export { default as blue } from "./blue.png";
 export { default as green } from "./green.png";
 export { default as pink } from "./pink.png";
 export { default as gknow } from "./gknow.png";
+export { default as claude } from "./claude.png";
